@@ -15,28 +15,22 @@
     "image": {
       "type": "media",
       "multiple": false,
-      "required": true,
+      "required": false,
       "allowedTypes": [
         "images"
       ]
     },
     "title": {
       "type": "string",
-      "required": true,
-      "maxLength": 30,
-      "minLength": 15
+      "required": false
     },
     "description": {
       "type": "text",
-      "required": true,
-      "maxLength": 90,
-      "minLength": 30
+      "required": false
     },
     "author": {
       "type": "string",
-      "required": true,
-      "maxLength": 15,
-      "minLength": 3
+      "required": false
     },
     "slug": {
       "type": "uid",
